@@ -1,0 +1,1434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Aditya Bharti | Portfolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        rel="stylesheet">
+
+</head>
+
+
+<body>
+
+<!-- ================= BACKGROUND ================= -->
+
+<div class="particles"></div>
+
+
+<!-- ================= NAVBAR ================= -->
+
+<header>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            <span>Aditya</span>
+        </div>
+
+
+        <ul class="nav-links">
+
+            <li>
+                <a href="#home">Home</a>
+            </li>
+
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+
+
+<!-- ================= HOME ================= -->
+
+<section id="home" class="hero">
+
+
+    <!-- PROFILE IMAGE -->
+
+    <div class="hero-image hidden"
+         style="transition-delay:100ms;">
+
+        <img
+            src="profile of aditi.jpeg"
+            alt="Aditya Bharti"
+            onclick="openImage()">
+
+    </div>
+
+
+
+    <!-- HERO CONTENT -->
+
+    <div class="hero-content">
+
+
+        <h3 class="hidden">
+
+            Hi, I'm
+
+        </h3>
+
+
+
+        <h1 class="hidden"
+            style="transition-delay:200ms;">
+
+            <span>Aditya</span> Bharti
+
+        </h1>
+
+
+
+        <h2 class="hidden"
+            style="transition-delay:400ms;">
+
+            B.Tech CSE Student
+
+        </h2>
+
+
+
+        <p class="hidden"
+           style="transition-delay:600ms;">
+
+            Passionate about programming, web development,
+            problem solving, and learning new technologies.
+            I enjoy building practical projects and improving
+            my technical skills through hands-on experience.
+
+        </p>
+
+
+
+        <p class="hidden"
+           style="transition-delay:700ms;">
+
+            I am continuously working on strengthening my
+            programming fundamentals and developing solutions
+            that are useful, simple, and effective.
+
+        </p>
+
+
+
+        <!-- BUTTONS -->
+
+        <div class="hero-btns hidden"
+             style="transition-delay:900ms;">
+
+
+            <a href="#Achievements"
+               class="btn"
+               onclick="openAchievement()">
+
+                Achievements
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </a>
+
+
+
+            <a href="resume.pdf"
+               class="btn-outline"
+               download>
+
+                <i class="fa-solid fa-download"></i>
+
+                Download Resume
+
+            </a>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= MAIN GRID ================= -->
+
+<section id="about"
+         class="grid-section">
+
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <div class="card hidden"
+         style="transition-delay:0.1s;">
+
+
+        <h2>
+
+            <i class="fa-regular fa-user"></i>
+
+            About Me
+
+        </h2>
+
+
+
+        <p class="about-text">
+
+            Hello! I'm Aditya Bharti, a B.Tech Computer
+            Science and Engineering student at Lovely
+            Professional University.
+
+            <br><br>
+
+            I have a strong interest in programming,
+            web development, problem solving, and
+            exploring new technologies.
+
+            <br><br>
+
+            I believe in learning by building projects
+            and improving my skills through practical
+            experience.
+
+        </p>
+
+
+
+        <button class="read-btn"
+                onclick="openAbout()">
+
+            Read More
+
+            <i class="fa-solid fa-arrow-right"></i>
+
+        </button>
+
+
+    </div>
+
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <div class="card hidden skills-card"
+         id="skills"
+         style="transition-delay:0.4s;">
+
+
+        <h2>
+
+            <i class="fa-solid fa-code"></i>
+
+            Skills
+
+        </h2>
+
+
+
+        <div class="skills-box">
+
+
+            <!-- PYTHON -->
+
+            <div class="skill-item">
+
+                <div class="skill-icon python-icon">
+
+                    <i class="fab fa-python"></i>
+
+                </div>
+
+
+                <div class="skill-info">
+
+                    <h3>Python</h3>
+
+                </div>
+
+
+                <span class="skill-dot"></span>
+
+            </div>
+
+
+
+            <!-- JAVASCRIPT -->
+
+            <div class="skill-item">
+
+                <div class="skill-icon js-icon">
+
+                    <i class="fab fa-js"></i>
+
+                </div>
+
+
+                <div class="skill-info">
+
+                    <h3>JavaScript</h3>
+
+                </div>
+
+
+                <span class="skill-dot"></span>
+
+            </div>
+
+
+
+           
+
+
+            <!-- C++ -->
+
+            <div class="skill-item">
+
+                <div class="skill-icon cpp-icon">
+
+                    <i class="fas fa-laptop-code"></i>
+
+                </div>
+
+
+                <div class="skill-info">
+
+                    <h3>C++</h3>
+
+                </div>
+
+
+                <span class="skill-dot"></span>
+
+            </div>
+
+
+
+            <!-- HTML -->
+
+            <div class="skill-item">
+
+                <div class="skill-icon html-icon">
+
+                    <i class="fab fa-html5"></i>
+
+                </div>
+
+
+                <div class="skill-info">
+
+                    <h3>HTML</h3>
+
+                </div>
+
+
+                <span class="skill-dot"></span>
+
+            </div>
+
+
+
+            <!-- CSS -->
+
+            <div class="skill-item">
+
+                <div class="skill-icon css-icon">
+
+                    <i class="fab fa-css3-alt"></i>
+
+                </div>
+
+
+                <div class="skill-info">
+
+                    <h3>CSS</h3>
+
+                </div>
+
+
+                <span class="skill-dot"></span>
+
+            </div>
+
+
+
+           
+
+
+
+          
+
+
+
+            
+
+
+
+            <!-- MYSQL -->
+
+            <div class="skill-item">
+
+                <div class="skill-icon sql-icon">
+
+                    <i class="fas fa-database"></i>
+
+                </div>
+
+
+                <div class="skill-info">
+
+                    <h3>MySQL</h3>
+
+                </div>
+
+
+                <span class="skill-dot"></span>
+
+            </div>
+
+
+
+            <!-- GIT -->
+
+            
+
+
+
+            
+
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ================= EDUCATION ================= -->
+
+    <div class="card hidden education-card"
+         id="education"
+         style="transition-delay:0.6s;">
+
+
+        <h2>
+
+            <i class="fa-solid fa-graduation-cap"></i>
+
+            Education
+
+        </h2>
+
+
+
+        <div class="timeline">
+
+
+            <!-- LPU -->
+
+            <div class="timeline-item">
+
+
+                <div class="timeline-icon">
+
+                    <i class="fa-solid fa-graduation-cap"></i>
+
+                </div>
+
+
+
+                <div class="timeline-content">
+
+
+                    <span class="year-badge">
+
+                        2025 - Present
+
+                    </span>
+
+
+
+                    <div class="edu-top">
+
+
+                        <div>
+
+
+                            <h3>
+
+                                B.Tech Computer Science
+                                & Engineering
+
+                            </h3>
+
+
+
+                            <p class="college">
+
+                                <i class="fa-solid fa-building-columns"></i>
+
+                                Lovely Professional University,
+                                Punjab
+
+                            </p>
+
+
+
+                            <p class="edu-desc">
+
+                                Currently pursuing B.Tech in
+                                Computer Science and Engineering.
+
+                            </p>
+
+
+                        </div>
+
+
+
+                        <img
+                            src="lpu.jpeg"
+                            alt="LPU"
+                            class="lpu-logo">
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- CLASS XII -->
+
+            <div class="timeline-item">
+
+
+                <div class="timeline-icon">
+
+                    <i class="fa-solid fa-school"></i>
+
+                </div>
+
+
+
+                <div class="timeline-content">
+
+
+                    <span class="year-badge">
+
+                        2022 - 2024
+
+                    </span>
+
+
+
+                    <h3>
+
+                        Higher Secondary Education
+
+                    </h3>
+
+
+
+                    <p class="college">
+
+                        Prakash Punj Public School,
+                        Patna, Bihar
+
+                    </p>
+
+
+
+                    <p class="edu-desc">
+
+                        Percentage: 91.8%
+
+                    </p>
+
+
+                </div>
+
+            </div>
+
+
+
+            <!-- CLASS X -->
+
+            <div class="timeline-item">
+
+
+                <div class="timeline-icon">
+
+                    <i class="fa-solid fa-certificate"></i>
+
+                </div>
+
+
+
+                <div class="timeline-content">
+
+
+                    <span class="year-badge">
+
+                        2021 - 2022
+
+                    </span>
+
+
+
+                    <h3>
+
+                        Secondary Education
+
+                    </h3>
+
+
+
+                    <p class="college">
+
+                        Prakash Punj Public School,
+                        Patna, Bihar
+
+                    </p>
+
+
+
+                    <p class="edu-desc">
+
+                        Percentage: 95.2%
+
+                    </p>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+</section>
+
+
+
+<!-- ================= ABOUT POPUP ================= -->
+
+<div class="about-popup"
+     id="aboutPopup">
+
+
+    <div class="popup-content">
+
+
+        <span class="close-btn"
+              onclick="closeAbout()">
+
+            &times;
+
+        </span>
+
+
+
+        <h2>
+
+            About Me
+
+        </h2>
+
+
+
+        <p>
+
+            I'm Aditya Bharti, a Computer Science and
+            Engineering student with an interest in
+            programming, technology, and problem solving.
+
+            <br><br>
+
+            I enjoy learning new concepts and applying
+            them through practical projects. My technical
+            interests include programming, web development,
+            databases, and software development.
+
+            <br><br>
+
+            I believe that consistent learning and hands-on
+            practice are important for becoming a better
+            developer.
+
+            <br><br>
+
+            I am continuously improving my technical skills,
+            communication, adaptability, and problem-solving
+            abilities while preparing myself for future
+            professional opportunities.
+
+        </p>
+
+
+    </div>
+
+</div>
+
+
+
+<!-- ================= ACHIEVEMENT POPUP ================= -->
+
+<div class="about-popup"
+     id="achievementPopup">
+
+
+    <div class="popup-content">
+
+
+        <span class="close-btn"
+              onclick="closeAchievement()">
+
+            &times;
+
+        </span>
+
+
+
+        <h2>
+
+            🏆 Achievements & Certifications
+
+        </h2>
+
+
+
+        <!-- ORACLE -->
+
+        <p>
+
+            <a href="oracle.jpeg"
+               target="_blank">
+
+                🟠 Oracle Data Platform 2025
+                Certified Foundations Associate
+
+            </a>
+
+        </p>
+
+
+
+        <!-- C PROGRAMMING -->
+
+        <p>
+
+            <a href="c language.jpeg"
+               target="_blank">
+
+                💻 Programming in C –
+                Infosys Springboard
+
+            </a>
+
+        </p>
+
+
+
+        <!-- COMPUTER PROGRAMMING -->
+
+        <p>
+
+            <a href="computer-programming.jpeg"
+               target="_blank">
+
+                🖥️ Computer Programming –
+                NEO Colab
+
+            </a>
+
+        </p>
+
+
+
+        <!-- CYBER SMART -->
+
+        <p>
+
+            <a href="wns.jpeg"
+               target="_blank">
+
+                🔐 Cyber Smart Certificate
+
+            </a>
+
+        </p>
+
+
+    </div>
+
+</div>
+
+
+
+<!-- ================= PROJECTS ================= -->
+
+<section id="projects"
+         class="premium-projects">
+
+
+    <div class="project-header">
+
+
+        <h2>
+
+            <i class="fa-solid fa-code"></i>
+
+            Projects
+
+        </h2>
+
+
+    </div>
+
+
+
+    <div class="premium-grid">
+
+
+        <!-- ================= EXPENSE MANAGEMENT ================= -->
+
+        <div class="premium-card hidden card-1">
+
+
+            <div class="project-image">
+
+                <img
+                    src="expense.jpeg"
+                    alt="Expense Management System">
+
+            </div>
+
+
+
+            <div class="project-info">
+
+
+                <div class="title-row">
+
+
+                    <div class="title-left">
+
+
+                        <div class="project-icon">
+
+                            <i class="fa-solid fa-wallet"></i>
+
+                        </div>
+
+
+
+                        <h3>
+
+                            Expense Management System
+
+                        </h3>
+
+
+                    </div>
+
+
+                </div>
+
+
+
+                <p>
+
+                    Developed a user-friendly web-based
+                    expense tracker to record, categorize,
+                    and monitor daily expenses in an
+                    organized manner.
+
+                </p>
+
+
+
+                <p>
+
+                    Implemented automatic total expense
+                    calculation, category-based tracking,
+                    and Local Storage for reliable data
+                    retention between sessions.
+
+                </p>
+
+
+
+                <div class="tech-tags">
+
+
+                    <span>
+
+                        HTML
+
+                    </span>
+
+
+
+                    <span>
+
+                        CSS
+
+                    </span>
+
+
+
+                    <span>
+
+                        JavaScript
+
+                    </span>
+
+
+
+                    <span>
+
+                        Web Storage API
+
+                    </span>
+
+
+                </div>
+
+
+
+                <div class="project-actions">
+
+
+                    <a href="#"
+                       class="view-btn">
+
+                        Project
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+
+
+                    <a href="#"
+                       class="github-btn">
+
+                        <i class="fab fa-github"></i>
+
+                    </a>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+        <!-- ================= ONLINE QUIZ ================= -->
+
+        <div class="premium-card hidden card-2">
+
+
+            <div class="project-image">
+
+                <img
+                    src="Quiz.jpeg"
+                    alt="Online Quiz Application">
+
+            </div>
+
+
+
+            <div class="project-info">
+
+
+                <div class="title-row">
+
+
+                    <div class="title-left">
+
+
+                        <div class="project-icon">
+
+                            <i class="fa-solid fa-circle-question"></i>
+
+                        </div>
+
+
+
+                        <h3>
+
+                            Online Quiz Application
+
+                        </h3>
+
+
+                    </div>
+
+
+                </div>
+
+
+
+                <p>
+
+                    Developed an interactive web-based quiz
+                    application that allows users to answer
+                    multiple-choice questions and test their
+                    knowledge.
+
+                </p>
+
+
+
+                <p>
+
+                    Validated Stripe payments by executing
+                    50+ successful test transactions across
+                    multiple course checkout scenarios
+                    end-to-end.
+
+                </p>
+
+
+
+                <div class="tech-tags">
+
+
+                    <span>
+
+                        HTML
+
+                    </span>
+
+
+
+                    <span>
+
+                        CSS
+
+                    </span>
+
+
+
+                    <span>
+
+                        JavaScript
+
+                    </span>
+
+
+
+                    <span>
+
+                        Stripe
+
+                    </span>
+
+
+                </div>
+
+
+
+                <div class="project-actions">
+
+
+                    <a href="#"
+                       class="view-btn">
+
+                        Project
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+
+
+                    <a href="#"
+                       class="github-btn">
+
+                        <i class="fab fa-github"></i>
+
+                    </a>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact"
+         class="hidden">
+
+
+    <div class="contact-heading">
+
+
+        <span>
+
+            ••• CONTACT
+
+        </span>
+
+
+
+        <h2>
+
+            Let's Build
+            <span>Something Great</span>
+
+        </h2>
+
+
+
+        <p>
+
+            Have a project in mind or a question?
+            Feel free to get in touch.
+
+        </p>
+
+
+    </div>
+
+
+
+    <div class="contact-container">
+
+
+        <!-- ================= CONTACT INFO ================= -->
+
+        <div class="contact-info">
+
+
+            <!-- EMAIL -->
+
+            <a href="mailto:adityabharti2789@gmail.com"
+               class="contact-card hidden"
+               style="transition-delay:0.1s;">
+
+
+                <i class="fa-solid fa-envelope"></i>
+
+
+                <div>
+
+
+                    <h3>
+
+                        Email
+
+                    </h3>
+
+
+                    <p>
+
+                        adityabharti2789@gmail.com
+
+                    </p>
+
+
+                </div>
+
+
+                <span>
+
+                    →
+
+                </span>
+
+
+            </a>
+
+
+
+            <!-- GITHUB -->
+
+            <a href="https://github.com/adityabharti2789-all"
+               target="_blank"
+               class="contact-card hidden"
+               style="transition-delay:0.3s;">
+
+
+                <i class="fab fa-github"></i>
+
+
+                <div>
+
+
+                    <h3>
+
+                        GitHub
+
+                    </h3>
+
+
+                    <p>
+
+                        Aditya Bharti
+
+                    </p>
+
+
+                </div>
+
+
+                <span>
+
+                    →
+
+                </span>
+
+
+            </a>
+
+
+
+            <!-- LINKEDIN -->
+
+            <a href="https://www.linkedin.com/in/adityabharti01/"
+               target="_blank"
+               class="contact-card hidden"
+               style="transition-delay:0.5s;">
+
+
+                <i class="fab fa-linkedin"></i>
+
+
+                <div>
+
+
+                    <h3>
+
+                        LinkedIn
+
+                    </h3>
+
+
+                    <p>
+
+                        Aditya Bharti
+
+                    </p>
+
+
+                </div>
+
+
+                <span>
+
+                    →
+
+                </span>
+
+
+            </a>
+
+
+
+            <!-- MOBILE -->
+
+            <a href="tel:+917739009175"
+               class="contact-card hidden"
+               style="transition-delay:0.7s;">
+
+
+                <i class="fa-solid fa-phone"></i>
+
+
+                <div>
+
+
+                    <h3>
+
+                        Mobile
+
+                    </h3>
+
+
+                    <p>
+
+                        +91 7739009175
+
+                    </p>
+
+
+                </div>
+
+
+                <span>
+
+                    →
+
+                </span>
+
+
+            </a>
+
+
+        </div>
+
+
+
+        <!-- ================= CONTACT FORM ================= -->
+
+        <form class="contact-form hidden"
+              style="transition-delay:0.9s;"
+              action="https://api.web3forms.com/submit"
+              method="POST">
+
+
+            <input
+                type="hidden"
+                name="access_key"
+                value="c5e62e09-566a-462c-a292-d1e8403ce820">
+
+
+
+            <input
+                type="hidden"
+                name="subject"
+                value="New Aditya Bharti Portfolio Message">
+
+
+
+            <input
+                type="text"
+                name="name"
+                placeholder="Your Name"
+                required>
+
+
+
+            <input
+                type="email"
+                name="email"
+                placeholder="Your Email Address"
+                autocomplete="email"
+                required>
+
+
+
+            <input
+                type="text"
+                name="subject_line"
+                placeholder="Subject">
+
+
+
+            <textarea
+                name="message"
+                placeholder="Your Message"
+                required></textarea>
+
+
+
+            <button type="submit">
+
+                Send Message 🚀
+
+            </button>
+
+
+        </form>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    © 2026 Aditya Bharti |
+    All Rights Reserved 🔵
+
+</footer>
+
+
+
+<!-- ================= IMAGE POPUP ================= -->
+
+<div id="imagePopup"
+     class="image-popup">
+
+
+    <span class="close-image"
+          onclick="closeImage()">
+
+        &times;
+
+    </span>
+
+
+
+    <img
+        src="profile of adiet.jpeg"
+        class="full-image"
+        alt="Aditya Bharti">
+
+
+</div>
+
+
+
+<!-- ================= JAVASCRIPT ================= -->
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
